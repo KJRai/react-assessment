@@ -1,5 +1,7 @@
+import React from "react";
+
 const Child = (props) => {
-  const {count, setCount} = props
+  const { count, setCount } = props
   const handleMinusClick = () => {
     setCount(count-1);
   };

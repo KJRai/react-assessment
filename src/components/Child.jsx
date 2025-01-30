@@ -1,10 +1,11 @@
-const Child = () => {
+const Child = (props) => {
+  const {count, setCount} = props
   const handleMinusClick = () => {
-    /* Implement logic here */
+    setCount(count-1);
   };
 
   const handlePlusClick = () => {
-    /* Implement logic here */
+    setCount(count+1);
   };
 
   return (

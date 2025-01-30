@@ -24,6 +24,7 @@
   border: none;
   border-radius: 15px;
   box-shadow: 0 9px #999;
+  padding-top: 10px;
 }
 
 .btn:hover {
@@ -36,4 +37,7 @@
   color: #61dafb;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
+}
+p{
+  min-height: 50px;
 }

@@ -42,3 +42,37 @@
 .v__read-the-docs {
   color: #888;
 }
+.container {
+  padding: 20px;
+  background-color: rgb(35, 39, 47);
+}
+
+.photos-grid {
+  margin-top: 20px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); 
+  gap: 16px; 
+}
+
+.photo-item {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.photo-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.photo-item p {
+  padding: 8px;
+  margin: 0;
+  font-size: 14px;
+  color: #333;
+}
